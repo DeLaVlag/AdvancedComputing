@@ -1,0 +1,16 @@
+network size 4x4,block size 4x4,sim time 100 ms,tInit 733750,tLoop 182700,tWrite 382,tCompute 80,tRead 87,tLoopCycle 90,tTotal 916537
+network size 8x8,block size 4x4,sim time 100 ms,tInit 125325,tLoop 186250,tWrite 394,tCompute 80,tRead 84,tLoopCycle 91,tTotal 311659
+network size 12x12,block size 4x4,sim time 100 ms,tInit 147574,tLoop 182144,tWrite 397,tCompute 77,tRead 118,tLoopCycle 90,tTotal 329836
+network size 16x16,block size 4x4,sim time 100 ms,tInit 170116,tLoop 183829,tWrite 476,tCompute 77,tRead 162,tLoopCycle 92,tTotal 354107
+network size 20x20,block size 4x4,sim time 100 ms,tInit 190728,tLoop 186631,tWrite 523,tCompute 77,tRead 192,tLoopCycle 93,tTotal 377551
+network size 24x24,block size 4x4,sim time 100 ms,tInit 220418,tLoop 188678,tWrite 1649,tCompute 77,tRead 241,tLoopCycle 93,tTotal 409337
+network size 28x28,block size 4x4,sim time 100 ms,tInit 228788,tLoop 294908,tWrite 582,tCompute 130,tRead 294,tLoopCycle 148,tTotal 523990
+network size 32x32,block size 4x4,sim time 100 ms,tInit 246290,tLoop 302676,tWrite 620,tCompute 132,tRead 375,tLoopCycle 149,tTotal 549341
+network size 36x36,block size 4x4,sim time 100 ms,tInit 266037,tLoop 307554,tWrite 687,tCompute 134,tRead 399,tLoopCycle 154,tTotal 573990
+network size 40x40,block size 4x4,sim time 100 ms,tInit 285098,tLoop 408839,tWrite 747,tCompute 183,tRead 474,tLoopCycle 203,tTotal 694411
+network size 44x44,block size 4x4,sim time 100 ms,tInit 305093,tLoop 418927,tWrite 832,tCompute 188,tRead 518,tLoopCycle 209,tTotal 724538
+network size 48x48,block size 4x4,sim time 100 ms,tInit 336534,tLoop 563758,tWrite 878,tCompute 235,tRead 608,tLoopCycle 257,tTotal 900900
+network size 52x52,block size 4x4,sim time 100 ms,tInit 343839,tLoop 529532,tWrite 972,tCompute 239,tRead 744,tLoopCycle 262,tTotal 874115
+network size 56x56,block size 4x4,sim time 100 ms,tInit 755286,tLoop 623106,tWrite 1068,tCompute 287,tRead 831,tLoopCycle 306,tTotal 1379223
+network size 60x60,block size 4x4,sim time 100 ms,tInit 807082,tLoop 626129,tWrite 1014,tCompute 286,tRead 964,tLoopCycle 296,tTotal 1434175
+network size 64x64,block size 4x4,sim time 100 ms,tInit 128030,tLoop 689365,tWrite 425,tCompute 330,tRead 761,tLoopCycle 342,tTotal 818156

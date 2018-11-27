@@ -1,0 +1,111 @@
+
+"Start" > ../comparison.txt
+
+#iterate through BMP images
+for number in 04 09; do
+	NAMEcpu="cpuimage"${number}".bmp"
+	NAMEGPU="GPUimage"${number}".bmp"
+	echo $NAMEcpu
+	echo $NAMEcpu >> ../comparison.txt 
+	./ComparePictures $NAMEGPU $NAMEcpu >> ../comparison.txt
+done
+
+
+#iterate through BMP images
+for number in 00 01 02 03 05 06 07 08 10 11 12 13 14 15; do
+	NAMEcpu="cpuimage"${number}".jpg"
+	NAMEGPU="GPUimage"${number}".jpg"
+	echo $NAMEcpu
+	echo $NAMEcpu >> ../comparison.txt 
+	./ComparePictures $NAMEGPU $NAMEcpu >> ../comparison.txt
+done
+
+
+
+
+
+# #remove images in images folder
+# cd imagesOutput
+# rm -f *.bmp
+# rm -f *.jpg
+
+
+# #remove compiler output files
+# cd ..
+# rm -f *.o
+# rm -f comparison.txt
+
+# #iterate through BMP images
+# for number in `seq 0 2`; do
+
+# #make a new ini file
+# echo ===============================================
+# pwd
+# echo ===============================================
+# NAME="./imagesMS/image"${number}".bmp"
+# cat <<EOT >run_settings.ini
+# [general]
+# exec_args      = $NAME
+# working_dir    = CURRENT_DIR
+# [profiling]
+# enable         = no
+# all_metrics    = no
+# all_events     = no
+# custom_options =
+# EOT
+# 	make runserver
+
+# 	cd imagesOutput
+
+# 	echo $NAME >> ../comparison.txt 
+# 	./ComparePictures "gray_gpu.bmp" "gray_cpu.bmp" >> ../comparison.txt
+# 	# rm -f *.bmp
+# 	cp diff.bmp "$number"diff.bmp
+# 	cp gray_cpu.bmp "$number"gray_cpu.bmp
+# 	cp gray_gpu.bmp "$number"gray_gpu.bmp
+
+# 	cd .. #out imagesOutput folder
+# 	cd .. #out tmp_ folder
+# 	cd ..
+# 	pwd
+# 	cd run
+# 	cp stdout.log "../lab2/tmp_MS/stdoutImage"${number}".log"
+# 	cd ../lab2/tmp_MS/
+# done
+
+# #iterate through JPG images
+# for number in `seq 2 4`; do
+
+# #make a new ini file
+# NAME="./imagesMS/image"${number}".jpg"
+# cat <<EOT >run_settings.ini
+# [general]
+# exec_args      = $NAME
+# working_dir    = CURRENT_DIR
+# [profiling]
+# enable         = no
+# all_metrics    = no
+# all_events     = no
+# custom_options =
+# EOT
+# 	make runserver
+
+# 	cd imagesOutput
+
+# 	echo $NAME >> ../comparison.txt 
+# 	./ComparePictures "gray_gpu.bmp" "gray_cpu.bmp" >> ../comparison.txt
+# 	# rm -f *.bmp
+# 	cp diff.bmp "$number"diff.bmp
+# 	cp gray_cpu.bmp "$number"gray_cpu.bmp
+# 	cp gray_gpu.bmp "$number"gray_gpu.bmp
+
+# 	cd .. #out imagesOutput folder
+# 	cd .. #out tmp_ folder
+# 	cd ..
+# 	pwd
+# 	cd run
+# 	cp stdout.log "../lab2/tmp_MS/stdoutImage"${number}".log"
+# 	cd ../lab2/tmp_MS/
+# done
+
+# rm -f *.o

@@ -1,0 +1,8 @@
+network size 8x8,block size 8x8,sim time 100 ms,tInit 854215,tLoop 767733,tWrite 1223,tCompute 243,tRead 4512,tLoopCycle 261,tTotal 1626460
+network size 16x16,block size 8x8,sim time 100 ms,tInit 192190,tLoop 857630,tWrite 5077,tCompute 249,tRead 160,tLoopCycle 267,tTotal 1049980
+network size 24x24,block size 8x8,sim time 100 ms,tInit 248891,tLoop 895789,tWrite 23579,tCompute 241,tRead 2320,tLoopCycle 258,tTotal 1147000
+network size 32x32,block size 8x8,sim time 100 ms,tInit 195563,tLoop 754921,tWrite 32634,tCompute 239,tRead 342,tLoopCycle 254,tTotal 950826
+network size 40x40,block size 8x8,sim time 100 ms,tInit 294309,tLoop 871597,tWrite 42476,tCompute 242,tRead 2615,tLoopCycle 262,tTotal 1168521
+network size 48x48,block size 8x8,sim time 100 ms,tInit 344270,tLoop 860887,tWrite 47271,tCompute 2594,tRead 548,tLoopCycle 2611,tTotal 1205705
+network size 56x56,block size 8x8,sim time 100 ms,tInit 354370,tLoop 922214,tWrite 52233,tCompute 292,tRead 740,tLoopCycle 310,tTotal 1277324
+network size 64x64,block size 8x8,sim time 100 ms,tInit 317342,tLoop 1123710,tWrite 57464,tCompute 381,tRead 998,tLoopCycle 399,tTotal 1442050

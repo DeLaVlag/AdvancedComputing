@@ -1,0 +1,9 @@
+The files of importance are in the folder lab2Group11/.
+
+The images should be manually be put in this folder. Please note, that main.cpp should be adjusted for this in line: 57.
+
+A image processing sequence can be started by running: "make runserver" in a linux terminal from the lab2Group11/.
+After processing (the command line will again be usable) the converted images are in the folder "lab2Group11/imagesOutput/".
+
+In this folder the comparison of sequential images can automatically be compared to the CUDA images by running "sh 1-ex" in the terminal.
+Afterwards in the upper folder a file will be created called "comparison.txt" containing the comparison results per image.
